@@ -1,7 +1,7 @@
 # Worst-of Phoenix Autocallable Pricer
 
 <!-- Replace <OWNER>/<REPO> with your GitHub path; the badge renders once this repo is pushed and the workflow has run. -->
-[![tests](https://github.com/<OWNER>/<REPO>/actions/workflows/tests.yml/badge.svg)](https://github.com/<OWNER>/<REPO>/actions/workflows/tests.yml)
+[![tests](https://github.com/<OWNER>/<REPO>/actions/workflows/tests.yml/badge.svg)](https://github.com/ShrishDhuria/autocallable-pricer/actions/workflows/tests.yml)
 
 A practitioner-grade Monte Carlo pricer for worst-of Phoenix autocallables on Euro Stoxx 50 / S&P 500 / Nikkei 225, with Heston stochastic-volatility calibration, live market data, and a Streamlit dashboard. Built around the products that French bank equity-derivatives desks (SG, BNP Paribas, Natixis) sell to retail in volume.
 
