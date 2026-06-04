@@ -1,0 +1,51 @@
+{
+  "date": "2026-06-04",
+  "proxy_source": "SPX",
+  "indices": {
+    "SPX": {
+      "name": "S&P 500",
+      "v0": 0.008334246258728572,
+      "kappa": 6.2121195533497735,
+      "theta": 0.04463411818815683,
+      "xi": 0.6999799460321641,
+      "rho": -0.9989999999999856,
+      "feller_ok": true,
+      "rmse": 0.002125378384991275,
+      "is_proxy": false,
+      "source": "yfinance SPY chain",
+      "spot": 755.7492065429688,
+      "rate": 0.04,
+      "div_yield": 0.015
+    },
+    "SX5E": {
+      "name": "Euro Stoxx 50",
+      "v0": 0.024807881931152822,
+      "kappa": 6.2121195533497735,
+      "theta": 0.13285879727314848,
+      "xi": 0.6999799460321641,
+      "rho": -0.9989999999999856,
+      "feller_ok": true,
+      "rmse": null,
+      "is_proxy": true,
+      "source": "proxy from SPX",
+      "spot": null,
+      "rate": null,
+      "div_yield": null
+    },
+    "NKY": {
+      "name": "Nikkei 225",
+      "v0": 0.06346461386044958,
+      "kappa": 6.2121195533497735,
+      "theta": 0.25,
+      "xi": 0.6999799460321641,
+      "rho": -0.9989999999999856,
+      "feller_ok": true,
+      "rmse": null,
+      "is_proxy": true,
+      "source": "proxy from SPX",
+      "spot": null,
+      "rate": null,
+      "div_yield": null
+    }
+  }
+}
