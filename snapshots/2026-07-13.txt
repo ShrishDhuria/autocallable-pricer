@@ -1,0 +1,23 @@
+Multi-asset snapshot @ 2026-07-13 18:16 UTC
+  SX5E    spot=  6,271.02  vol=14.67%  div=3.00%
+  SPX     spot=  7,521.62  vol=15.09%  div=1.30%
+  NKY     spot= 68,557.73  vol=35.51%  div=1.80%
+  EUR rate: 2.18%
+  Corr:
+[[1.    0.529 0.387]
+ [0.529 1.    0.2  ]
+ [0.387 0.2   1.   ]]
+
+PV: 86.7825  (SE 0.0862)
+
+Greeks:
+                 price:  86.78425
+            delta_SX5E:  0.00277
+            gamma_SX5E: -0.00000
+        vega_SX5E_1vol: -0.48383
+             delta_SPX:  0.00187
+             gamma_SPX:  0.00000
+         vega_SPX_1vol: -0.48537
+             delta_NKY:  0.00058
+             gamma_NKY:  0.00000
+         vega_NKY_1vol: -0.89651
